@@ -17,7 +17,7 @@ function Product({title, image, price, rating}) {
                     <p>⭐️</p> ))}
                 </div>
             </div>
-            <img src="https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg" alt=""/>
+            <img src={image} alt=""/>
 
             <button>Add to Basket</button>
         </div>
