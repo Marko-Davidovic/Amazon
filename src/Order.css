@@ -1,0 +1,21 @@
+.order{
+    padding: 60px;
+    margin: 30px 0;
+    border: 1px solid lightgrey;
+    background-color: white;
+    position: relative;
+}
+.order__id{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-weight: 500;
+}
+.order__total {
+    font-weight: 500;
+    text-align: right;
+}
+.order__number > p {
+    font-weight: 700;
+    font-variant: inherit;
+}
